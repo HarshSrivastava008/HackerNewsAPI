@@ -1,0 +1,6 @@
+C:\Deepak\Assignment\HackerNewsAPI\NewsAPI.Data\bin\Debug\NewsAPI.Data.dll
+C:\Deepak\Assignment\HackerNewsAPI\NewsAPI.Data\bin\Debug\NewsAPI.Data.pdb
+C:\Deepak\Assignment\HackerNewsAPI\NewsAPI.Data\obj\Debug\NewsAPI.Data.csproj.AssemblyReference.cache
+C:\Deepak\Assignment\HackerNewsAPI\NewsAPI.Data\obj\Debug\NewsAPI.Data.csproj.CoreCompileInputs.cache
+C:\Deepak\Assignment\HackerNewsAPI\NewsAPI.Data\obj\Debug\NewsAPI.Data.dll
+C:\Deepak\Assignment\HackerNewsAPI\NewsAPI.Data\obj\Debug\NewsAPI.Data.pdb

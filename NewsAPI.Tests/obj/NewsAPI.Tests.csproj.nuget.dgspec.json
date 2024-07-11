@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Tests\\NewsAPI.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Deepak\\Assignment\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Deepak\\Assignment\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+        "projectName": "HackerNewsAPI",
+        "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+        "packagesPath": "C:\\Users\\Harsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\HackerNewsAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Harsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj": {
+                "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj"
+              },
+              "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj": {
+                "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj",
+        "projectName": "NewsAPI.Business",
+        "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj": {
+                "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj",
+        "projectName": "NewsAPI.Data",
+        "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Tests\\NewsAPI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Tests\\NewsAPI.Tests.csproj",
+        "projectName": "NewsAPI.Tests",
+        "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Tests\\NewsAPI.Tests.csproj",
+        "packagesPath": "C:\\Users\\Harsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Harsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Deepak\\Assignment\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj": {
+                "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj"
+              },
+              "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj": {
+                "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Business\\NewsAPI.Business.csproj"
+              },
+              "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj": {
+                "projectPath": "C:\\Deepak\\Assignment\\HackerNewsAPI\\NewsAPI.Data\\NewsAPI.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
