@@ -1,1 +1,1 @@
-# HackerNewsAPI
+Hacker News API, create a solution that allows users to view the newest stories from the feed. API is developed in ASP.NET core and it’s using of dependency injection , Caching of the newest stories properly unit test cases written in Moq and Microsoft.VisualStudio.TestTools.UnitTesting;
