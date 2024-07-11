@@ -64,3 +64,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+[ExcludeFromCodeCoverage]
+public partial class Program
+{
+}
